@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>kalkulator</title>
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body >
+	
+	<div class="main" >
+		<form name="form">
+			<input class="textview" name="hitung1" id="tampilnilai1" > 
+			<input class="checkbox" type="checkbox" id="angka1" value="10" onClick="inputnilai()"></br>
+			<input class="textview" name="hitung2" id="tampilnilai2">
+			<input class="checkbox"type="checkbox" id="angka2" value="2" onClick="inputnilai()"></br>
+			<input class="textview" name="hitung3" id="tampilnilai3">
+			<input class="checkbox" type="checkbox" id="angka3" value="5" onClick="inputnilai()"><br>			 
+			<input class="button" type="button" name="submit" onclick="tambah()" value="+">
+			<input class="button" type="button" name="submit" onclick="kali()" value="X">
+			<input class="button" type="button" name="submit" onclick="bagi()" value="/">
+			<input class="button" type="button" name="submit" onclick="kurang()" value="-">
+			<hr>
+			<h3>H A S I L :   <input class="textviewhasil" type="text" name="total"></h3>
+		</form>
+	</div>		
+<script src="main.js"></script>
+</body>
+</html>
+
